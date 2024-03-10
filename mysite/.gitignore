@@ -1,0 +1,44 @@
+# Project files and directories
+/myproject/local_settings.py
+/myproject/static/
+/myproject/media/
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.pyc
+*.pyo
+
+# IDE/Editor files
+*.idea/
+.vscode/
+
+# Virtual environment
+.venv/
+env/
+
+# Test coverage reports
+htmlcov/
+.coverage
+.pytest_cache/
+
+# Database files (if applicable)
+db.sqlite3
+*.db
+
+# Logs
+*.log
+
+# Requirements files
+requirements.txt
+
+# Other IDE/Editor or OS specific files
+*.swp  # Vim swap files
+*.swo  # Emacs swap files
+Thumbs.db  # Windows thumbnail database
+.DS_Store  # Mac OS X desktop file
+
+# Secret management (optional, replace with your specific file pattern)
+/myproject/secret.key
+
+# Local development settings
+.env
