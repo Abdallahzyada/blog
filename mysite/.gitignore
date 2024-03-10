@@ -1,7 +1,7 @@
 # Project files and directories
-/myproject/local_settings.py
-/myproject/static/
-/myproject/media/
+/mysite/local_settings.py
+/mysite/static/
+/mysite/media/
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
@@ -38,7 +38,7 @@ Thumbs.db  # Windows thumbnail database
 .DS_Store  # Mac OS X desktop file
 
 # Secret management (optional, replace with your specific file pattern)
-/myproject/secret.key
+/mysite/secret.key
 
 # Local development settings
 .env
